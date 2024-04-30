@@ -1,0 +1,33 @@
+//
+//  Rule file generated on Mon Apr 29 19:21:44 2024
+//  by Calibre Interactive v2022.3_26.14    Mon Aug 1 16:04:47 PDT 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "funzione_logica.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "funzione_logica"
+
+SOURCE PATH "funzione_logica.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "funzione_logica"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "funzione_logica.lvs.report"
+
+LVS POWER NAME "vdd!" "vdda!" "vdd" "vdda" "dd" "DD" "VDD" "VDDA" "VCC"
+LVS GROUND NAME "gnd!" "gnda!" "gnd" "gnda" "ss" "SS" "VSS" "VEE"
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "funzione_logica.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+ERC SUMMARY REPORT "funzione_logica.erc.summary"
+
+DRC ICSTATION YES
+
+INCLUDE "/nfsd/ichome/lib/umc13_OA/RuleDecks/Calibre/LVS/G-DF-MIXED_MODE_RFCMOS13-1P8M-MMC-FSG-L130E-CALIBRE-LVS-2.3-P10.txt"

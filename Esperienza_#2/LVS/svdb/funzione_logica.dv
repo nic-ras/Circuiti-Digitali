@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/funzione_logica.dv
+dv_start matched                                  
+dv_cell {funzione_logica} {funzione_logica} matched
+dv_obj_count -transformed_nets {8 8} -transformed_inst {6 6} -transformed_port {6 6}
+dv_end

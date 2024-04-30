@@ -1,0 +1,19 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+
+Loading umc13mmrf/libInit.il ...
+	Loading umc13mmrf/loadCxt.ile ... done!
+	Loading context 'umc13mmrf' from library 'umc13mmrf' ... done!
+	Loading context 'pdkUtils' from library 'umc13mmrf' ... done!
+	Loading context 'Util' from library 'umc13mmrf' ... done!
+	Loading context 'userUtil' from library 'umc13mmrf' ... done!
+	Loading context 'oxf_cb' from library 'umc13mmrf' ... done!
+	Loading umc13mmrf/libInitCustomExit.il ... done!
+Loaded umc13mmrf/libInit.il successfully!
+Loading label display file for library umc13mmrf
+Loading cdf.cxt 
+
+Loading hnlInit.cxt 
+Running Artist Hierarchical Netlisting ...
+
+End netlisting Apr 29 19:21:44 2024
+

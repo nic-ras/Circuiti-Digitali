@@ -1,0 +1,86 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 10/05/2021 19:14 (cpgsrv11) $
+          : sub-version  IC6.1.8-64b.500.21 
+Started at: 29-Apr-2024  19:21:42
+User Name : raseranico
+Host Name : cadstud.dei.unipd.it
+Directory : /nfsd/cadusers/raseranico/pcia
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+seconda_esperienza/funzione_logica/layout                       8        0       0        27     0      30        0      6             0      0     0     0       0       
+umc13mmrf/N_12_HSL130E/layout   0        0       0        14     0      0         7      0             0      0     0     0       0       
+umc13mmrf/P_12_HSL130E/layout   0        0       0        12     0      0         7      0             0      0     0     0       0       
+umc13mmrf/M1_PACTIVE/layout     0        0       0        12     0      0         0      0             0      0     0     0       0       
+umc13mmrf/M1_POLY/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+umc13mmrf/M1_POLY/layout        0        0       0        4      0      0         0      0             0      0     0     0       0       
+umc13mmrf/M1_NWEL/layout        0        0       0        13     0      0         0      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+seconda_esperienza/funzione_logica/layout                       0        0          0          0          0          0     0        0         5         0        
+umc13mmrf/N_12_HSL130E/layout   0        0          0          0          0          0     0        0         0         0        
+umc13mmrf/P_12_HSL130E/layout   0        0          0          0          0          0     0        0         0         0        
+umc13mmrf/M1_PACTIVE/layout     0        0          0          0          0          0     0        0         0         0        
+umc13mmrf/M1_POLY/layout        0        0          0          0          0          0     0        0         0         0        
+umc13mmrf/M1_POLY/layout        0        0          0          0          0          0     0        0         0         0        
+umc13mmrf/M1_NWEL/layout        0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+IPWM            drawing         63      63        0        0        0        10       0             0    0   0   0     0      0      
+NWEL            drawing         3       0         0        8        0        0        0             0    0   0   0     0      0      
+SYMBOL          WELLBODY        117     17        0        1        0        0        0             0    0   0   0     0      0      
+M1_CAD          TEXT            101     0         0        0        0        0        6             0    0   0   0     0      0      
+PPLUS           drawing         11      0         0        2        0        0        0             0    0   0   0     0      0      
+NPLUS           drawing         12      0         0        2        0        0        0             0    0   0   0     0      0      
+TEXT            drawing         85      0         0        0        0        4        0             0    0   0   0     0      0      
+PO1             drawing         41      0         0        21       0        0        0             0    0   0   0     0      0      
+CONT            drawing         39      0         0        26       0        0        0             0    0   0   0     0      0      
+SDSYM           drawing         86      20        0        2        0        0        0             0    0   0   0     0      0      
+ME1             drawing         46      0         0        16       0        0        0             0    0   0   0     0      30     
+DIFF            drawing         1       0         0        8        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		8
+	Array Instances:		0
+	Polygons:			0
+	Paths:				0
+	Rectangles:			86
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			5
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			30
+	Text:				14
+	TextDisplay:		6
+	Cells:				7
+Design Libraries: 
+
+DEFINE seconda_esperienza	/nfsd/cadusers/raseranico/pcia/seconda_esperienza
+DEFINE umc13mmrf	/nfsd/ichome/lib/umc13_OA/umc13mmrf

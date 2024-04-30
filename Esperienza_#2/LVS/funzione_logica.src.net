@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  seconda_esperienza
+* Top Cell Name: funzione_logica
+* View Name:     schematic
+* Netlisted on:  Apr 29 19:21:44 2024
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: seconda_esperienza
+* Cell Name:    funzione_logica
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT funzione_logica A B C VDD gnd output
+*.PININFO A:B B:B C:B VDD:B gnd:B output:B
+MPM2 output C VDD VDD P_12_HSL130E W=360.0n L=120.0n M=1.0
+MPM1 output B net1 VDD P_12_HSL130E W=720.0n L=120.0n M=1.0
+MPM0 net1 A VDD VDD P_12_HSL130E W=720.0n L=120.0n M=1.0
+MNM2 net2 C gnd gnd N_12_HSL130E W=255.00n L=120.0n M=1.0
+MNM1 output A net2 gnd N_12_HSL130E W=255.00n L=120.0n M=1.0
+MNM0 output B net2 gnd N_12_HSL130E W=255.00n L=120.0n M=1.0
+.ENDS
+

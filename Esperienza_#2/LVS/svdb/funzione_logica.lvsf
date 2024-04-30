@@ -1,0 +1,28 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/raseranico/TCI/Esperienza_#2/LVS
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_SourceCase NO
+lvs_LayoutCase NO
+lvs_PowerName vdd!
+lvs_PowerName vdda!
+lvs_PowerName vdd
+lvs_PowerName vdda
+lvs_PowerName dd
+lvs_PowerName DD
+lvs_PowerName VDD
+lvs_PowerName VDDA
+lvs_PowerName VCC
+lvs_GroundName gnd!
+lvs_GroundName gnda!
+lvs_GroundName gnd
+lvs_GroundName gnda
+lvs_GroundName ss
+lvs_GroundName SS
+lvs_GroundName VSS
+lvs_GroundName VEE
+lvs_LvsOutFile LVS_REPORT funzione_logica.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST funzione_logica.src.net
+lvs_LvsOutFile RULES_FILE _G-DF-MIXED_MODE_RFCMOS13-1P8M-MMC-FSG-L130E-CALIBRE-LVS-2.3-P10.txt_
+lvs_LvsRunTimes 1714411306 1714411306
