@@ -1,0 +1,95 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 10/05/2021 19:14 (cpgsrv11) $
+          : sub-version  IC6.1.8-64b.500.21 
+Started at: 31-May-2024  18:08:28
+User Name : raseranico
+Host Name : cadstud.dei.unipd.it
+Directory : /nfsd/cadusers/raseranico/pcia
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+umc13mmrf/P_12_HSL130E/layout   0        0       0        423    0      0         26     0             0      0     0     0       0       
+umc13mmrf/M1_PACTIVE/layout     0        0       0        163    0      0         0      0             0      0     0     0       0       
+terza_esperienza/diff/layout    3        0       0        75     0      124       0      6             0      0     0     0       0       
+umc13mmrf/M3_M2/layout          0        0       0        3      0      0         0      0             0      0     0     0       0       
+umc13mmrf/M1_POLY/layout        0        0       0        3      0      0         0      0             0      0     0     0       0       
+umc13mmrf/N_12_HSL130E/layout   0        0       0        150    0      0         26     0             0      0     0     0       0       
+umc13mmrf/M1_NWEL/layout        0        0       0        164    0      0         0      0             0      0     0     0       0       
+umc13mmrf/N_12_HSL130E/layout   0        0       0        234    0      0         26     0             0      0     0     0       0       
+umc13mmrf/M2_M1/layout          0        0       0        3      0      0         0      0             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+umc13mmrf/P_12_HSL130E/layout   0        0          0          0          0          0     0        0         0         0        
+umc13mmrf/M1_PACTIVE/layout     0        0          0          0          0          0     0        0         0         0        
+terza_esperienza/diff/layout    0        0          0          0          0          0     0        0         88        0        
+umc13mmrf/M3_M2/layout          0        0          0          0          0          0     0        0         0         0        
+umc13mmrf/M1_POLY/layout        0        0          0          0          0          0     0        0         0         0        
+umc13mmrf/N_12_HSL130E/layout   0        0          0          0          0          0     0        0         0         0        
+umc13mmrf/M1_NWEL/layout        0        0          0          0          0          0     0        0         0         0        
+umc13mmrf/N_12_HSL130E/layout   0        0          0          0          0          0     0        0         0         0        
+umc13mmrf/M2_M1/layout          0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+IPWM            drawing         63      63        0        0        0        15       0             0    0   0   0     0      0      
+VI1             drawing         47      0         0        1        0        0        0             0    0   0   0     0      0      
+NWEL            drawing         3       0         0        3        0        0        0             0    0   0   0     0      0      
+SYMBOL          WELLBODY        117     17        0        2        0        0        0             0    0   0   0     0      0      
+SDSYM           drawing         86      20        0        3        0        0        0             0    0   0   0     0      0      
+ME3             drawing         50      0         0        7        0        0        0             0    0   0   0     0      2      
+M3_CAD          TEXT            103     0         0        0        0        0        4             0    0   0   0     0      0      
+M1_CAD          TEXT            101     0         0        0        0        0        2             0    0   0   0     0      0      
+PPLUS           drawing         11      0         0        2        0        0        0             0    0   0   0     0      0      
+VI2             drawing         49      0         0        1        0        0        0             0    0   0   0     0      0      
+NPLUS           drawing         12      0         0        3        0        0        0             0    0   0   0     0      0      
+TEXT            drawing         85      0         0        0        0        63       0             0    0   0   0     0      0      
+PO1             drawing         41      0         0        249      0        0        0             0    0   0   0     0      0      
+CONT            drawing         39      0         0        867      0        0        0             0    0   0   0     0      0      
+ME2             drawing         48      0         0        2        0        0        0             0    0   0   0     0      53     
+ME1             drawing         46      0         0        67       0        0        0             0    0   0   0     0      69     
+DIFF            drawing         1       0         0        11       0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		3
+	Array Instances:		0
+	Polygons:			0
+	Paths:				0
+	Rectangles:			1218
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			88
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			124
+	Text:				78
+	TextDisplay:		6
+	Cells:				9
+Design Libraries: 
+
+DEFINE terza_esperienza	/nfsd/cadusers/raseranico/pcia/terza_esperienza
+DEFINE umc13mmrf	/nfsd/ichome/lib/umc13_OA/umc13mmrf

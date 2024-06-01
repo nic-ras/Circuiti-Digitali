@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+terza_esperienza/diff/schematic diff
+$endmodel
+$net
+$endnet
+$param
+$endparam

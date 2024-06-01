@@ -1,0 +1,12 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1717171711 1717171712
+lvs_ExtOutFile RUNDIR /home/raseranico/TCI/Esperienza_#3/LVS
+lvs_ExtOutFile RULES_FILE _G-DF-MIXED_MODE_RFCMOS13-1P8M-MMC-FSG-L130E-CALIBRE-LVS-2.3-P10.txt_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoErcSummary {13 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST diff.sp
+lvs_ExtOutFile EXTRACTION_REPORT diff.lvs.report.ext
+lvs_ExtOutFile ERC_DATABASE diff.erc.results
+lvs_ExtOutFile ERC_SUMMARY diff.erc.summary

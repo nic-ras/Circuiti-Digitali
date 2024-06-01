@@ -1,0 +1,33 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  terza_esperienza
+* Top Cell Name: diff
+* View Name:     schematic
+* Netlisted on:  May 31 18:08:29 2024
+************************************************************************
+
+.INCLUDE  /nfsd/ichome/lib/umc13_OA/CDL_include_file.cir
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: terza_esperienza
+* Cell Name:    diff
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT diff Iref OUT VDD VI1 VI2 gnd
+*.PININFO Iref:B OUT:B VDD:B VI1:B VI2:B gnd:B
+MPM1 OUT net1 VDD VDD P_12_HSL130E W=60u L=240.0n M=1.0
+MPM0 net1 net1 VDD VDD P_12_HSL130E W=60u L=240.0n M=1.0
+MNM3 Iref Iref gnd gnd N_12_HSL130E W=26.5u L=240.0n M=1.0
+MNM2 net2 Iref gnd gnd N_12_HSL130E W=26.5u L=240.0n M=1.0
+MNM1 OUT VI2 net2 gnd N_12_HSL130E W=13.25u L=240.0n M=1.0
+MNM0 net1 VI1 net2 gnd N_12_HSL130E W=13.25u L=240.0n M=1.0
+.ENDS
+

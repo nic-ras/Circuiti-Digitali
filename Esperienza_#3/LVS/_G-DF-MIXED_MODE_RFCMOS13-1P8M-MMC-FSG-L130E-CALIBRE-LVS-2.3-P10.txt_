@@ -1,0 +1,33 @@
+//
+//  Rule file generated on Fri May 31 18:08:29 2024
+//  by Calibre Interactive v2022.3_26.14    Mon Aug 1 16:04:47 PDT 2022
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "diff.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "diff"
+
+SOURCE PATH "diff.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "diff"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "diff.lvs.report"
+
+LVS POWER NAME "vdd!" "vdda!" "vdd" "vdda" "dd" "DD" "VDD" "VDDA" "VCC"
+LVS GROUND NAME "gnd!" "gnda!" "gnd" "gnda" "ss" "SS" "VSS" "VEE"
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "diff.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+ERC SUMMARY REPORT "diff.erc.summary"
+
+DRC ICSTATION YES
+
+INCLUDE "/nfsd/ichome/lib/umc13_OA/RuleDecks/Calibre/LVS/G-DF-MIXED_MODE_RFCMOS13-1P8M-MMC-FSG-L130E-CALIBRE-LVS-2.3-P10.txt"

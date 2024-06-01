@@ -1,0 +1,27 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+
+Loading umc13mmrf/libInit.il ...
+	Loading umc13mmrf/loadCxt.ile ... done!
+	Loading context 'umc13mmrf' from library 'umc13mmrf' ... done!
+	Loading context 'pdkUtils' from library 'umc13mmrf' ... done!
+	Loading context 'Util' from library 'umc13mmrf' ... done!
+	Loading context 'userUtil' from library 'umc13mmrf' ... done!
+	Loading context 'oxf_cb' from library 'umc13mmrf' ... done!
+	Loading umc13mmrf/libInitCustomExit.il ... done!
+Loaded umc13mmrf/libInit.il successfully!
+Loading label display file for library umc13mmrf
+Loading cdf.cxt 
+
+Loading hnlInit.cxt 
+Running Artist Hierarchical Netlisting ...
+
+WARNING (AUCDL-42): Terminal V1 appearing in CDF termOrder for 
+		component   : diff
+		in cellview : schematic
+		of library  : terza_esperienza
+is either invalid or duplicated. CDF termOrder for this component will be ignored.
+Ensure that termOrder matches actual terminals in cellview and re-netlist to reflect any change in termOrder.
+Nets will be printed in default terminal order for this component.
+
+End netlisting May 31 18:08:29 2024
+
